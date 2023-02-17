@@ -13,6 +13,7 @@ import (
 type ValidateErrorMessage struct {
 	Message []string `json:"validation_errors"`
 }
+// abc
 
 func DtoValidate(dto interface{}) (validationResult *[]byte) {
 	validator := validator2.New()
